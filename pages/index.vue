@@ -1,6 +1,5 @@
 <template>
-    <div class="bg-black z-[-2]">
-<div class="overflow-hidden bg-no-repeat  bg-center w-full h-screen bg-[url('/baddie.jpg')] z-[-1]">
+    <div class="bg-black z-[-1]">
 
   <div class="relative w-full h-screen overflow-hidden">
     <!-- VIDEO BACKGROUND -->
@@ -12,7 +11,7 @@
       preload="auto"
       class="absolute top-0 left-0 w-full h-full object-cover z-0"
     >
-      <source src="/hitam.mp4" type="video/mp4" />
+      <source src="/thunder.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
@@ -20,20 +19,14 @@
     <div class="relative z-10">
       <HeaderComponent />
       <div class="p-10 text-white">
-        <h1 class="text-4xl font-bold ">TEST</h1>
-        <p class="mt-2 font-light">Ini adalah halaman testing untuk deploy</p>
+        <h1 class="text-4xl font-bold ">NuxtJs</h1>
+        <p class="text-lg text-gray-400 md:w-[600px] w-[300px] mt-2 overflow-hidden">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, sunt itaque! Laudantium dolor magni eaque vero quae earum necessitatibus nisi, vitae blanditiis facere, eos obcaecati consequuntur ex, excepturi itaque nihil!</p>
       </div>
     </div>
   </div>
 </div>
-</div>
 </template>
 
 <style scoped>
-h1 {
-    font-family: poppins;
-}
-p {
-    font-family: poppins;
-}
+
 </style>
